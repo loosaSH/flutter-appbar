@@ -15,10 +15,6 @@
 笔者的思路是flexibleSpace单独处理关于AppBar尺寸变动的情况，就像AppBar源码中对flexibleSpace的注释，A flexible space isn't actually flexible unless the [AppBar]'s container changes the [AppBar]'s size. A [SliverAppBar] in a [CustomScrollView] changes the [AppBar]'s height when scrolled.
 后面有折叠效果，也方便扩展。
 
-作者：aTaller
-链接：https://www.jianshu.com/p/09c280d76562
-来源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ## 问题
 
 最近项目组决定使用 Flutter 来做新的App，在开发过程中遇到了这样的一个需求，渐变色的AppBar。
